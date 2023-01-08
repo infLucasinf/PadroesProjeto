@@ -7,5 +7,5 @@ package questao2;
 public enum TipoRelatorio {
 
 	RESUMIDO, COMPLETO;
-	
+
 }

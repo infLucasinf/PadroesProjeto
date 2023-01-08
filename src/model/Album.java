@@ -1,18 +1,19 @@
-//O pacote model possui as classes que já fazem parte do trabalho, e servem como base para as duas questões.
-//Essa é a classe Album que herda da classe abstrata Obra.
+ /* 
+ * O pacote "model" possui as classes que fazem parte do trabalho, e servem como base para as duas questoes.
+ * Essa é a classe Album que herda da classe abstrata Obra.
+ */
 
 package model;
 
 public class Album extends Obra {
-		
-    private String gravadora;
+
+	private String gravadora;
 	private String estudio;
 	private String autor;
 	private Integer duracao;
-		
-	public Album(String titulo, Integer ano, Double avaliacao,
-				 String gravadora, String estudio,
-				 String autor, Integer duracao) {
+
+	public Album(String titulo, Integer ano, Double avaliacao, String gravadora, String estudio, String autor,
+			Integer duracao) {
 		super(titulo, ano, avaliacao);
 		this.gravadora = gravadora;
 		this.estudio = estudio;
@@ -36,5 +37,6 @@ public class Album extends Obra {
 		return this.estudio;
 	}
 
-	
 }
+
+    
